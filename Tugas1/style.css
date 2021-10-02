@@ -1,0 +1,68 @@
+body {
+		background-image: url(Aurora.webp);
+		background-position: center;
+		background-size: cover;
+	}
+	h4{
+		background: white;
+		margin-right: 150px;
+		margin-left: 150px;
+		margin-top: 50px;
+		padding: 50px 50px;
+		border-radius: 30px;
+	}
+	h1{
+		color: darkorange;
+		margin-top: 20px;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+.two {
+	color: gold;
+}
+
+.one {
+	color: gold;
+}
+
+.blink{
+	font-family: 'Blackadder ITC',cursive;
+	-webkit-animation-name: blink;
+
+	-webkit-animation-duration: 2s;
+
+	-webkit-animation-timing-function: linear;
+
+	-webkit-animation-iteration-count: infinite;
+
+}
+
+@-moz-keyframes blink {  
+
+ 0% { opacity: 1.0; }
+
+ 50% { opacity: 0.0; }
+
+ 100% { opacity: 1.0; }
+
+ }
+
+@-webkit-keyframes blink {  
+
+ 0% { opacity: 1.0; }
+
+ 50% { opacity: 0.0; }
+
+ 100% { opacity: 1.0; }
+
+ }
+
+@keyframes blink {  
+
+ 0% { opacity: 1.0; }
+
+ 50% { opacity: 0.0; }
+
+ 100% { opacity: 1.0; }
+
+ }
